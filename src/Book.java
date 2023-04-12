@@ -1,5 +1,5 @@
 public class Book {
-    private String nameBook = new String() ;
+    private String nameBook ;
     private Author author ;
 
     private int writingDateBook;

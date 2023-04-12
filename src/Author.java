@@ -11,13 +11,17 @@ public class Author {
     }
 
     public String getNameAuthor() {
-        return nameAuthor;
+        return this.nameAuthor;
     }
     public void setSecondNameAuthor(String secondNameAuthor) {
         this.secondNameAuthor = secondNameAuthor;
     }
 
     public String getSecondNameAuthor() {
-        return secondNameAuthor;
+        return this.secondNameAuthor;
+    }
+
+    public String toString() {
+        return nameAuthor + " " + secondNameAuthor;
     }
 }
