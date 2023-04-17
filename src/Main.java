@@ -6,28 +6,25 @@ public class Main {
         book1.setWritingDateBook(1940);
 
 
-        System.out.println(book1.getNameBook() + " " + book1.getAuthor() + " дата окончания написания романа - " + book1.getWritingDateBook());
-
+//        System.out.println(book1.getNameBook() + " " + book1.getAuthor() + " дата окончания написания романа - " + book1.getWritingDateBook());
+        System.out.println(book1);
 
         Author pushkin = new Author("Alexandr","Pushkin");
         Book book2 = new Book("Евгений Онегин", pushkin, 1831);
 
-        System.out.println(book2.getNameBook() + ", " +pushkin +","+ book2.getWritingDateBook());
+//        System.out.println(book2.getNameBook() + ", " +pushkin +","+ book2.getWritingDateBook());
+        System.out.println(book2);
 
 
+        Author author1 = new Author("Сергей ","Есенин");
+//        System.out.println(author1.getNameAuthor() + author1.getSecondNameAuthor());
 
-
-
-                Author author1 = new Author("Сергей ","Есенин");
-        System.out.println(author1.getNameAuthor() + author1.getSecondNameAuthor());
-
-
+        System.out.println(author1);
 
         Author author2 = new Author("Николай ","Гоголь");
-        System.out.println(author2.getNameAuthor() + author2.getSecondNameAuthor());
+//        System.out.println(author2.getNameAuthor() + author2.getSecondNameAuthor());
 
-        System.out.println(author1.equals(author2));
-
+        System.out.println(author2);
 
     }
 

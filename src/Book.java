@@ -42,8 +42,17 @@ public class Book {
         return this.writingDateBook;
     }
 
-    public String tostring() {
-        return this.nameBook + this.author + this.writingDateBook;
+//    public String tostring() {
+//        return this.nameBook + this.author + this.writingDateBook;
+//    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "nameBook='" + nameBook + '\'' +
+                ", author=" + author +
+                ", writingDateBook=" + writingDateBook +
+                '}';
     }
 
     @Override

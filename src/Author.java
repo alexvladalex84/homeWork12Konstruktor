@@ -23,8 +23,16 @@ public class Author {
         return this.secondNameAuthor;
     }
 
+//    public String toString() {
+//        return nameAuthor + " " + secondNameAuthor;
+//    }
+
+    @Override
     public String toString() {
-        return nameAuthor + " " + secondNameAuthor;
+        return "Author{" +
+                "nameAuthor='" + nameAuthor + '\'' +
+                ", secondNameAuthor='" + secondNameAuthor + '\'' +
+                '}';
     }
 
     @Override
