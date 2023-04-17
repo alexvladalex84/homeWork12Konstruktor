@@ -4,23 +4,29 @@ public class Main {
         Author bulgakov = new Author("Mihail", "Bulgakov");
         Book book1 = new Book("Мастер и маргарита,",bulgakov,1928);
         book1.setWritingDateBook(1940);
+
+
         System.out.println(book1.getNameBook() + " " + book1.getAuthor() + " дата окончания написания романа - " + book1.getWritingDateBook());
 
 
         Author pushkin = new Author("Alexandr","Pushkin");
         Book book2 = new Book("Евгений Онегин", pushkin, 1831);
-        System.out.println(book2.getNameBook() + ", " +book2.getAuthor() +","+ book2.getWritingDateBook());
+
+        System.out.println(book2.getNameBook() + ", " +pushkin +","+ book2.getWritingDateBook());
 
 
 
-        Author author1 = new Author("Сергей ","Есенин");
+
+
+                Author author1 = new Author("Сергей ","Есенин");
         System.out.println(author1.getNameAuthor() + author1.getSecondNameAuthor());
+
 
 
         Author author2 = new Author("Николай ","Гоголь");
         System.out.println(author2.getNameAuthor() + author2.getSecondNameAuthor());
 
-
+        System.out.println(author1.equals(author2));
 
 
     }
